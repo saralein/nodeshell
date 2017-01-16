@@ -25,6 +25,8 @@ process.stdin.on('data', function (data) {
     commands.cat(option);
   } else if (cmd === 'head') {
     commands.head(option, 5);
+  } else if (cmd === "tail"){
+    commands.tail(option, 5);
   }
   //if (cmd === 'pwd') {
   //   cmd = process.cwd();
