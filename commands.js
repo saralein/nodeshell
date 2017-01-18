@@ -5,7 +5,7 @@ var fs = require('fs');
 //     cmd = process.cwd();
 //   }
 // }
-
+//const new = 5;
 //process.stdout.write('\nprompts > ');
 
 module.exports = {
